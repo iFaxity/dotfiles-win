@@ -4,7 +4,6 @@
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "mouse_follows_focus": false,
-  "focus_follows_mouse": "Komorebi",
   "transparency": false,
   "transparency_alpha": 200,
   "default_workspace_padding": 0,
@@ -36,6 +35,13 @@
           "layout": "BSP"
         }
       ]
+    }
+  ],
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "Meld.exe",
+      "matching_strategy": "Equals"
     }
   ]
 }
